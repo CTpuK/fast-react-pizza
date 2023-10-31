@@ -3,6 +3,7 @@ import Button from "../../ui/Button";
 import { formatCurrency } from "../../utils/helpers";
 
 function CartItem({ item }) {
+  console.log(item);
   // eslint-disable-next-line no-unused-vars
   const { pizzaId, name, quantity, totalPrice } = item;
 
